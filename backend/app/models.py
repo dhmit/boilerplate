@@ -1,3 +1,3 @@
 """
-Models for the the sonification web app.
+Models for the the [BOILERPLATE] web app.
 """

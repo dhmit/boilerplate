@@ -1,5 +1,5 @@
 """
-Tests for the sonification web app.
+Tests for the [BOILERPLATE] web app.
 """
 # pylint: disable-msg=C0116
 # ignoring pylint's `missing-function-docstring` errors
