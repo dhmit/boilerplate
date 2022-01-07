@@ -42,6 +42,10 @@ def index(request):
 
 
 def example(request, example_id=None):
+    """
+    Example page
+    """
+
     context = {
         'page_metadata': {
             'title': 'Example ID page'
