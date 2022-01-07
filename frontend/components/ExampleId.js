@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import * as PropTypes from "prop-types";
-import STYLES from "./ExampleId.module.scss";
 
 const ExampleId = ({id}) => {
 
@@ -11,14 +10,14 @@ const ExampleId = ({id}) => {
     };
 
     return (
-        <div>
+        <div className="example">
             <h1>This is the Example ID page.</h1>
             <p>
                 This page demonstrates passing view parameters from Django to React
                 and very simple state management.
             </p>
             <p>View params:</p>
-            <ul className={STYLES.list}>
+            <ul className="list">
                 <li>ID: {id}</li>
             </ul>
             <p>Example state: {tracker}</p>

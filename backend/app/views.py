@@ -39,3 +39,16 @@ def index(request):
     }
 
     return render(request, 'index.html', context)
+
+
+def example(request, example_id=None):
+    context = {
+        'page_metadata': {
+            'title': 'Example ID page'
+        },
+        'component_props': {
+            'id': example_id
+        },
+        'component_name': 'ExampleId'
+    }
+    return render(request, 'index.html', context)
